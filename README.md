@@ -66,6 +66,10 @@ Abra o terminal e execute:
 
 ---
 
+### Licença
+
+[MIT License](LICENSE.txt)
+
 ### Contato
 
 [Thiago Prazeres](https://www.linkedin.com/in/thbezerra/)
