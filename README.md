@@ -50,19 +50,19 @@ Abra o terminal e execute:
 
 ---
 
-occeano.com.br/
-├── css/                # Arquivos de estilo (CSS)
-├── js/                 # Scripts JavaScript
-├── img/                # Imagens e ativos visuais
-├── doc/                # Documentação do projeto (se houver)
-├── download/           # Arquivos para download (se aplicável)
-├── index.html          # Página principal
-├── quem-somos.html     # Página "Quem Somos"
-├── contato.html        # Página de Contato
-├── contato.php         # Script para processamento do formulário
-├── .gitignore          # Arquivo para ignorar arquivos e pastas no Git
-├── package.json        # Dependências e scripts de desenvolvimento
-└── LICENSE.txt         # Arquivo de Licença (MIT License)
+    occeano.com.br/
+    ├── css/                # Arquivos de estilo (CSS)
+    ├── js/                 # Scripts JavaScript
+    ├── img/                # Imagens e ativos visuais
+    ├── doc/                # Documentação do projeto (se houver)
+    ├── download/           # Arquivos para download (se aplicável)
+    ├── index.html          # Página principal
+    ├── quem-somos.html     # Página "Quem Somos"
+    ├── contato.html        # Página de Contato
+    ├── contato.php         # Script para processamento do formulário
+    ├── .gitignore          # Arquivo para ignorar arquivos e pastas no Git
+    ├── package.json        # Dependências e scripts de desenvolvimento
+    └── LICENSE.txt         # Arquivo de Licença (MIT License)
 
 ---
 
