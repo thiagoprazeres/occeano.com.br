@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Occeano: Contato</title>
+    <meta
+      name="description"
+      content="A Occeano possui uma suíte de soluções em diversos seguimentos tais como: Inteligência de negócios, tecnologia financeira, transformação digital, inteligência jurídica, monitoria e proteção de dados."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main2.css" />
+    <meta name="theme-color" content="#7a75b5" />
+  </head>
+  <body>
+    <!-- Main navigation -->
+    <header>
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-dark
+          bg-primary
+          fixed-top
+          scrolling-navbar
+        "
+      >
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+            <img
+              class="ml-3"
+              src="img/logo3.png"
+              height="30"
+              alt="Occeano logo"
+            />
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand mr-5 mb-md-0 d-none d-md-block" href="./"
+              ><img src="img/logo3.png" height="30" alt="Occeano logo"
+            /></a>
+            <ul class="navbar-nav mr-auto mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quem-somos.html"
+                  >Quem somos <span class="sr-only">(atual)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./#produtos">Produtos</a>
+              </li>
+              <!-- Dropdown
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">Produtos</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="bi-inteligencia-negocios.html">BI Inteligência de negócios</a>
+                  <a class="dropdown-item" href="#">Inteligência Jurídica</a>
+                  <a class="dropdown-item" href="#">Monitoria e Segurança dos Dados</a>
+                  <a class="dropdown-item" href="">Tecnologia Financeira</a>
+                  <a class="dropdown-item" href="">TV Corporativa</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./#oportunidade">Oportunidade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./#clientes">Clientes</a>
+              </li> -->
+              <li class="nav-item active">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+              <li class="nav-item">
+                <a
+                  href="https://wa.me/558188664600?text=Ol%C3%A1%2C+vi+seu+n%C3%BAmero+no+site+e+estou+interessando+nas+suas+solu%C3%A7%C3%B5es"
+                  class="nav-link waves-effect waves-light"
+                >
+                  <i class="fab fa-whatsapp"></i> (81) 98866-4600
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Full Page Intro -->
+      <div id="intro-contato" class="view intro-bgimage">
+        <!-- Content -->
+        <div class="container text-white">
+          <h1 class="h1-responsive mt-4">Contato</h1>
+          <hr class="hr-secondary" />
+          <h6 class="mb-4">Agende já uma visita</h6>
+        </div>
+        <!-- Content -->
+      </div>
+      <!-- Full Page Intro -->
+    </header>
+    <!-- Section: Contact v.3 -->
+    <section class="contact-section my-5 container">
+      <!-- Form with header -->
+      <div class="card">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-lg-8">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="contato.php"
+              method="POST"
+              onsubmit="return envia();"
+              class="card-body form"
+            >
+              <!-- Header -->
+              <h3><i class="fas fa-envelope pr-2"></i>Nos Escreva</h3>
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="nome"
+                      name="nome"
+                      class="form-control"
+                    />
+                    <label for="nome">Nome</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                    />
+                    <label for="email">E-mail</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="tel"
+                      id="telefone"
+                      name="telefone"
+                      class="form-control"
+                    />
+                    <label for="telefone">Telefone</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="empresa"
+                      name="empresa"
+                      class="form-control"
+                    />
+                    <label for="empresa">Sua empresa</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <textarea
+                      id="message"
+                      name="message"
+                      class="form-control md-textarea"
+                      rows="3"
+                    ></textarea>
+                    <label for="message">Mensagem</label>
+                    <div class="text-right mt-4">
+                      <button
+                        class="btn-lg bg-secondary white-text"
+                        type="submit"
+                      >
+                        <i class="far fa-paper-plane"></i> Enviar
+                      </button>
+                      <div id="status"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </form>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="bg-secondary col-lg-4 d-none d-sm-block">
+            <table class="w-100 h-100 white-text">
+              <tbody>
+                <tr>
+                  <td class="text-center align-middle">
+                    <h3 class="my-4 pb-2">Contatos comerciais</h3>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
+                          href="https://goo.gl/maps/Ysm51AUA38sycBBK8"
+                          title="Ver no mapa"
+                          target="_blank"
+                          class="text-white"
+                          ><address>
+                            <i class="fas fa-map-marker-alt"></i> Av. República
+                            do Líbano, 251 – Sls. 804/805<br />Bairro da Pina –
+                            Recife – PE – 51.110-160
+                          </address></a
+                        >
+                      </li>
+                      <li class="mb-3">
+                        <a
+                          href="https://wa.me/558188664600?text=Ol%C3%A1%2C+vi+seu+n%C3%BAmero+no+site+e+estou+interessando+nas+suas+solu%C3%A7%C3%B5es"
+                          class="white-text"
+                          ><i class="fab fa-whatsapp pr-2"></i> (81)
+                          98866-4600</a
+                        >
+                      </li>
+                      <li>
+                        <a href="mailto:tom@occeano.com.br" class="white-text"
+                          ><i class="fas fa-envelope pr-2"></i>
+                          tom@occeano.com.br</a
+                        >
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Form with header -->
+    </section>
+    <!-- Section: Contact v.3 -->
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-secondary pt-4">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5>Occeano</h5>
+            <p>Tecnologia e Decisão</p>
+          </div>
+          <!-- Grid column -->
+          <hr class="clearfix w-100 d-md-none pb-3" />
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Soluções</h5>
+            <ul class="list-unstyled">
+              <li>Inteligência de negócios (BI Analytics)</li>
+              <li>Tecnologia financeira (TEF, Conciliador, Price)</li>
+              <li>Implantação Remota de Sistemas (Rollout)</li>
+              <li>PlataformaRH de Recrutamento e Seleção</li>
+              <li>Soluções BigData, DataIntegration e IA;</li>
+              <li>Monitoria e proteção de dados</li>
+              <li>Automação Processos de Qualidade e LGPD</li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5>Contato comercial</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://wa.me/558188664600?text=Ol%C3%A1%2C+vi+seu+n%C3%BAmero+no+site+e+estou+interessando+nas+suas+solu%C3%A7%C3%B5es"
+                  ><i class="fab fa-whatsapp"></i> (81) 98866-4600</a
+                >
+              </li>
+              <li>
+                <a href="mailto:tom@occeano.com.br"
+                  ><i class="fas fa-envelope"></i> tom@occeano.com.br</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://goo.gl/maps/Ysm51AUA38sycBBK8"
+                  title="Ver no mapa"
+                  target="_blank"
+                  ><i class="fas fa-map-marker-alt"></i>
+                  <address>
+                    <small
+                      >Av. República do Líbano, 251 – Sls. 804/805<br />Bairro
+                      da Pina – Recife – PE – 51.110-160</small
+                    >
+                  </address></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        <i class="fas fa-copyright"></i> 2018 Todos os direitos reservados:
+        <a href="https://occeano.com.br"
+          ><i class="fab fa-chrome"></i> occeano.com.br</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-3.3.1.min.js"><\/script>'
+        );
+    </script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"
+    ></script>
+    <!-- Jarallax -->
+    <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+    <script>
+      function envia() {
+        $('#status').text('Enviando...');
+        formData = {
+          nome: $('input#nome').val(),
+          email: $('input#email').val(),
+          telefone: $('input#telefone').val(),
+          empresa: $('input#empresa').val(),
+          message: $('textarea#message').val(),
+        };
+        $.ajax({
+          url: 'contato.php',
+          type: 'POST',
+          data: formData,
+          success: function (data, textStatus, jqXHR) {
+            console.log('data: ' + data);
+            console.log('textStatus: ' + textStatus);
+            //console.log(jqXHR);
+            $('#status').text(data);
+            if (textStatus == 'success') {
+              //If mail was sent successfully, reset the form.
+              $('#contact-form')[0].reset();
+              //$('#contact-form').closest('form').find("input[type=text], textarea").val("");
+            }
+          },
+          error: function (jqXHR, textStatus, errorThrown) {
+            console.log(jqXHR, textStatus, errorThrown);
+            $('#status').text('Ocorreu um erro, tente novamente.');
+            //$('#modalSubscriptionForm').modal('hide');
+          },
+        });
+        return false;
+      }
+    </script>
+    <!--<script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>-->
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
+      <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+  </body>
+</html>
